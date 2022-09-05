@@ -1,0 +1,43 @@
+.container {
+  @apply flex items-center rounded-lg cursor-pointer p-2.5 mx-1.5 relative;
+  &:hover {
+    background: #0000000a;
+    .options {
+      display: flex;
+    }
+  }
+}
+
+.options {
+  @apply absolute right-8 rounded-full bg-white ring-1 ring-gray-400 w-8 h-8 justify-center items-center;
+  z-index: 1;
+  display: none;
+  &:hover {
+    background: #0000000a;
+  }
+}
+
+.wrapper {
+  @apply flex justify-start items-center;
+}
+
+.inner {
+  @apply px-2.5;
+}
+
+.avatar {
+  @apply w-12 h-12;
+}
+
+.content {
+  @apply flex items-center text-xs;
+  white-space: nowrap;
+  width: 207px;
+}
+
+.message {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+}

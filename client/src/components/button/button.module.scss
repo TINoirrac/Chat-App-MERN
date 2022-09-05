@@ -1,0 +1,6 @@
+.wrapper{
+    @apply rounded-full w-9 h-9 flex justify-center items-center;
+    &:hover{
+        background-color: #f5f5f5;
+    }
+}

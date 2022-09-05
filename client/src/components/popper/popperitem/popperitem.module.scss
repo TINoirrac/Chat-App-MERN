@@ -1,0 +1,6 @@
+.wrapper{
+    @apply h-11 p-2 flex items-center rounded-3xl cursor-pointer;
+    &:hover{
+        background: #0000000a;
+    }
+}

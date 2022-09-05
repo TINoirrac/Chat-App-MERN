@@ -1,0 +1,7 @@
+.wrapper{
+    @apply bg-white h-screen overflow-auto;
+}
+.selected{
+    background: #0000000a;
+    border-radius: 8px;
+}

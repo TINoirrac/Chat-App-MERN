@@ -1,0 +1,19 @@
+.wrapper{
+    @apply h-16 p-2.5 rounded-t-3xl flex justify-center items-center mt-2.5 bg-white;
+}
+
+.search{
+    @apply h-9 rounded-full flex-1 flex items-center py-1.5 px-2.5;
+    background: #f3f3f5;
+    input{
+        @apply flex-1;
+        background: #f3f3f5;
+    }
+}
+
+.search-results{
+    @apply bg-white rounded-lg p-1 w-80;
+    margin-top: -9px;
+    box-shadow: 0 12px 28px 0 #0003, 0 2px 4px 0 #0000001a;;
+
+}

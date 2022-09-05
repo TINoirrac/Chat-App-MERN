@@ -1,0 +1,12 @@
+.wrapper {
+  @apply py-3 flex items-center;
+}
+
+.type-mess {
+  @apply h-9 rounded-full flex-1 flex items-center mx-3;
+  background: #f3f3f5;
+  input{
+    @apply flex-1 mx-2.5;
+    background: #f3f3f5;
+}
+}

@@ -1,0 +1,44 @@
+.wrapper {
+  @apply flex-1 max-w-full min-w-0 bg-white my-2.5 mr-2.5 rounded-3xl;
+  @apply flex flex-col justify-between;
+}
+
+.box-chat_message {
+  @apply h-screen flex flex-col overflow-y-auto pb-2 ;
+}
+
+.input-group {
+  @apply py-3 flex items-center;
+}
+
+.type-mess {
+  @apply h-9 rounded-full flex-1 flex items-center mx-3;
+  background: #f3f3f5;
+  input {
+    @apply flex-1 mx-2.5;
+    background: #f3f3f5;
+  }
+}
+
+.message {
+  @apply flex items-end;
+  .content {
+    @apply break-words py-2 px-3 break-all rounded-3xl bg-gray-200 text-black max-w-xs;
+  }
+}
+
+.sended {
+  @apply justify-end;
+  .content {
+    @apply bg-blue-600 text-white;
+  }
+}
+
+.receiver-image{
+  @apply w-7 h-7 mr-2 ml-2.5 ring-0;
+}
+
+.read-image{
+  @apply w-3.5 h-3.5 mx-1 ring-0
+}
+

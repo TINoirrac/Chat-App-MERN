@@ -1,0 +1,27 @@
+.wrapper {
+  @apply p-2.5 flex justify-between;
+}
+
+.account {
+  @apply flex justify-start items-center;
+}
+
+.inner {
+  @apply pl-2;
+}
+
+.buttons {
+  @apply flex justify-around items-center;
+}
+
+.username {
+  @apply text-sm;
+}
+
+.status {
+  @apply text-xs;
+}
+
+.button {
+  @apply mx-1;
+}
