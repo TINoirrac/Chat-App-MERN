@@ -121,11 +121,11 @@ const Content = ({ socket, currentChat }) => {
     return (
       <div ref={scrollRef} key={uuidv4()}>
         <div className={cx("message",`${message.fromSelf ? "sended" : "received"}`)}>
-          {(!message.fromSelf)&&<Image src={message.infoReceiver.avatarImage} className={cx('receiver-image')} />}
+          {/* {(!message.fromSelf)&&<Image src={message.infoReceiver.avatarImage} className={cx('receiver-image')} />} */}
           <div className={cx("content")}>
             <p>{message.message}</p>
           </div>
-          {(message.fromSelf)&&<Image src={message.infoReceiver.avatarImage} className={cx('read-image')}/>}
+          {/* {(message.fromSelf)&&<Image src={`${message.infoReceiver.avatarImage}`} className={cx('read-image')}/>} */}
         </div>
       </div>
     );
